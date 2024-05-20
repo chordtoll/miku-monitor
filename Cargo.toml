@@ -9,3 +9,7 @@ license = "MIT"
 [dependencies]
 diesel = { version = "2.1.6", features = ["sqlite"] }
 libsqlite3-sys = { version = "0.28.0", features = ["bundled"] }
+slint = "1.6.0"
+
+[build-dependencies]
+slint-build = "1.6.0"
